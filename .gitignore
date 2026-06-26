@@ -1,0 +1,28 @@
+# Dados brutos (RetailRocket) — grandes demais para o GitHub (limite de 100MB/arquivo)
+Dataset/
+
+# Artefatos gerados pelo pipeline
+staging/
+datalake/
+delta/
+dw_export/
+logs/
+
+# Banco DuckDB
+*.duckdb
+*.duckdb.wal
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Ferramentas
+.claude/
