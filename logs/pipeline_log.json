@@ -1,0 +1,80 @@
+{
+  "timestamp": "2026-06-26T19:13:30.569828",
+  "etapas": [
+    {
+      "etapa": "0 - Lotes",
+      "status": "OK",
+      "timestamp": "2026-06-26T19:13:49.095678",
+      "lote1": 2480490,
+      "lote2": 275611
+    },
+    {
+      "etapa": "A.1 - Staging",
+      "status": "OK",
+      "timestamp": "2026-06-26T19:14:58.381945"
+    },
+    {
+      "etapa": "A.2 - Star Schema",
+      "status": "OK",
+      "timestamp": "2026-06-26T19:14:58.849192"
+    },
+    {
+      "etapa": "A.2 - Star Schema",
+      "status": "OK",
+      "timestamp": "2026-06-26T19:15:02.758921"
+    },
+    {
+      "etapa": "A.3 - SCD Tipo 2",
+      "status": "OK",
+      "timestamp": "2026-06-26T19:15:13.603753",
+      "produtos_com_historico": 7487
+    },
+    {
+      "etapa": "A.5 - Carga DW",
+      "status": "OK",
+      "timestamp": "2026-06-26T19:15:49.180547",
+      "linhas_fato": 2271479
+    },
+    {
+      "etapa": "A.6 - \u00cdndices",
+      "status": "OK",
+      "timestamp": "2026-06-26T19:15:56.502121"
+    },
+    {
+      "etapa": "A.7 - Particionamento",
+      "status": "OK",
+      "timestamp": "2026-06-26T19:16:07.328968"
+    },
+    {
+      "etapa": "A.8 - Analytics",
+      "status": "OK",
+      "timestamp": "2026-06-26T19:16:12.919869"
+    },
+    {
+      "etapa": "B.1/B.2 - Bronze/Silver",
+      "status": "OK",
+      "timestamp": "2026-06-26T19:18:07.378372",
+      "silver": 2755641
+    },
+    {
+      "etapa": "B.3 - Particionamento f\u00edsico",
+      "status": "OK",
+      "timestamp": "2026-06-26T19:18:18.811495"
+    },
+    {
+      "etapa": "B.4 - Time Travel",
+      "status": "OK",
+      "timestamp": "2026-06-26T19:22:58.455520"
+    },
+    {
+      "etapa": "B.5 - Schema Evolution",
+      "status": "OK",
+      "timestamp": "2026-06-26T19:23:02.076122"
+    },
+    {
+      "etapa": "B.6/B.7 - Gold",
+      "status": "OK",
+      "timestamp": "2026-06-26T19:23:08.044253"
+    }
+  ]
+}

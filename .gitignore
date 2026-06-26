@@ -1,15 +1,8 @@
-# Dados brutos (RetailRocket) — grandes demais para o GitHub (limite de 100MB/arquivo)
+# Dados brutos (RetailRocket) — grandes demais para o GitHub.
+# Baixe em: https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset
 Dataset/
 
-# Artefatos gerados pelo pipeline
-staging/
-datalake/
-delta/
-dw_export/
-logs/
-
-# Banco DuckDB
-*.duckdb
+# Arquivo temporário do DuckDB (write-ahead log)
 *.duckdb.wal
 
 # Python
